@@ -3,11 +3,21 @@
 - **API** stands for **A**pplication **P**rogramming **I**nterface. 
 - In general, an **API** is a set of programming code that enables data transmission between one software product and another.
 
+![API](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzT7su1ZcjFDC24OQ3aEDv2Noh6_SZhsJug&usqp=CAU)
+
 Click [here](https://en.wikipedia.org/wiki/API) for more about an **API**.
+
+
+## What is REST?
+- Let us assume that zomato food delivery app, the client searched if the particular food is available or not.
+- The client's request, send to the zomato's database via an API.
+- If the particular food is present or not the output resource sent to the REST API in the form of web page.
+- The REST sent the information in the form of JSON,XML,HTML, etc,.
+- Following diagram explains better to you.
 
 ![REST](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGWU2E5TqHwcSnaL1SKk4eYSz4SqU8ZUfTtg&usqp=CAU)
 
-## What is REST?
+## REST Definition ?
 - **REST** stands for **R**epresentational **S**tate **T**ransfer.
 - **REST** is a software architectural style as well as an approach for communication purpose that is often used in various web services development.
 - The goal of **REST** is to increase performance, scalability, simplicity, modifiability, visibility, portability, and reliability.
