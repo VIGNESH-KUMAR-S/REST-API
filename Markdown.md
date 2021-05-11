@@ -40,3 +40,20 @@ Click [here](https://en.wikipedia.org/wiki/API) for more about an **API**.
     * Resource manipulation through representations
     * Self-descriptive messages
     * Hypermedia as the engine of application state (HATEOAS)
+## HTTP Methods used by REST Architecture
+The REST architecture makes use of five HTTP methods.
+
+- **GET:** This method helps in offering read only access for the resources.
+- **POST:** This method is implemented for creating a new resource.
+- **DELETE:** This method is implemented for removing a resource.
+- **PUT:** This method is implemented for updating an existing record in the data source.
+- **PATCH:** The PATCH request only needs to contain the changes to the resource, not the complete resource.
+
+## Advantages of REST
+- Seperation between the client and the server.
+- Visibility, Readability and Scalability.
+- The REST API is always independent of the type of the platform or languages.
+
+## REST API Security
+- A RESTful API provides another route to access and manipulate your application. Even if it’s not an interesting hacking target, a badly behaved client could send thousands of requests every second and crash your server.
+
