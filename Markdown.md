@@ -49,6 +49,25 @@ The REST architecture makes use of five HTTP methods.
 - **PUT:** This method is implemented for updating an existing record in the data source.
 - **PATCH:** The PATCH request only needs to contain the changes to the resource, not the complete resource.
 
+## Response Codes
+- Response codes contain three digits. The HTTP standard divides them into ranges.
+- Codes that begin with 2 indicate success.
+- A code beginning with 4 means a client error.
+- A server error begins with 5.
+- The following table shows the response code with particular description.
+  |Response code|  Description|
+  |------|--------|
+  |200|	  Success|
+  |201|	  Created|
+  |204|	  No content|
+  |400|	  Bad request|
+  |403|	  Forbidden|
+  |404|	  Not found|
+  |500|	  Internal server error|
+
+- The `Created code` is returned for a new record, while Success is returned for modifying, deleting, and retrieving records.
+- The `Forbidden response code` indicates a record can’t be created, while No content indicates a failed modification.
+
 ## Advantages of REST
 - Seperation between the client and the server.
 - Visibility, Readability and Scalability.
